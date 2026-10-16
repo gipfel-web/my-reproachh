@@ -182,13 +182,65 @@
     </p>
   </section>
 
+  <!-- E-posta Abonelik Bölümü -->
+  <section class="newsletter" id="abonelik">
+    <p class="eyebrow">GELİŞİM YOLCULUĞU</p>
+    <h2>Yeni yazılardan haberdar ol.</h2>
+
+    <p>
+      Disiplin, kişisel gelişim ve motivasyon üzerine
+      yeni yazılarımı e-posta kutunda keşfet.
+    </p>
+
+    <form id="newsletter-form">
+      <label for="subscriber-email">E-posta adresin</label>
+
+      <div class="newsletter-input">
+        <input
+                type="email"
+                id="subscriber-email"
+                name="email"
+                placeholder="ornek@email.com"
+                autocomplete="email"
+                required
+        >
+
+        <button type="submit">Abone Ol ↗</button>
+      </div>
+
+      <p id="newsletter-message" aria-live="polite"></p>
+    </form>
+  </section>
+
+
+
   <section class="contact" id="iletisim">
     <p class="eyebrow">İLETİŞİM</p>
-    <h2>Ahmet YEŞİL</h2>
-    <p>Önerilerini ve düşüncelerini benimle paylaşabilirsin.</p>
-    <a class="button" href="mailto:merhaba@example.com">E-posta gönder ↗</a>
-    <p class="muted small">E-posta adresini kendi adresinle değiştirebilirsin.</p>
+    <h2>Benimle İletişime Geç</h2>
+
+    <p class="contact-description">section
+      Bir fikrin, sorun veya paylaşmak istediğin
+      bir düşüncen mi var? Bana ulaşabilirsin.
+    </p>
+
+    <a
+            class="button"
+            href="mailto:ysllcanahmet06@gmail.com?subject=My%20Reproach%20-%20Iletisim"
+    >
+      ✉️ E-posta Gönder ↗
+    </a>
+
+    <a
+            class="button whatsapp-button"
+            href="https://wa.me/905010895001?text=Merhaba%2C%20My%20Reproach%20sitenizden%20ula%C5%9F%C4%B1yorum."
+            target="_blank"
+            rel="noopener noreferrer"
+    >
+      💬 WhatsApp ile İletişime Geç
+    </a>
+
   </section>
+
 </main>
 
 <footer class="footer">
@@ -249,34 +301,6 @@
   });
 </script>
 
-</section>
-
-<!-- İletişim Bölümü -->
-<section id="iletisim" class="contact-section">
-  <p class="eyebrow">İLETİŞİM</p>
-
-  <h2>Ahmet YEŞİL </h2>
-
-
-  <p class="contact-description">
-    Bir fikrin, sorun veya paylaşmak istediğin
-    bir düşüncen mi var? Bana ulaşabilirsin.
-  </p>
-
-
-
-
-    <!-- E-posta Gönder Butonu -->
-    <a href="mailto:ysllcanahmet06@gmail.com?subject=My%20Reproach%20-%20Iletisim"
-       class="contact-link email-button">
-      <span>✉️</span>
-      <span>
-        <strong>E-posta Gönder</strong>
-        <small>Mesajını bana ilet</small>
-    </span>
-    </a>
-
-</section>
 
 </body>
 </html>

@@ -1146,3 +1146,84 @@ body {
         min-width: 0;
     }
 }
+
+/* E-posta abonelik alanı */
+.newsletter {
+    max-width: 760px;
+    margin: 60px auto;
+    padding: 40px 24px;
+    text-align: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.newsletter h2 {
+    margin-bottom: 16px;
+}
+
+.newsletter > p:not(.eyebrow) {
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.newsletter form {
+    max-width: 520px;
+    margin: 24px auto 0;
+    text-align: left;
+}
+
+.newsletter label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.newsletter-input {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter-input input {
+    flex: 1;
+    min-width: 0;
+    padding: 13px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font: inherit;
+}
+
+.newsletter-input button {
+    padding: 13px 18px;
+    border: none;
+    border-radius: 6px;
+    background: var(--accent);
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+#newsletter-message {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+@media (max-width: 480px) {
+    .newsletter-input {
+        flex-direction: column;
+    }
+}
+
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 12px;
+    background-color: #25D366;
+    color: #ffffff;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.whatsapp-button:hover {
+    opacity: 0.85;
+}
+
