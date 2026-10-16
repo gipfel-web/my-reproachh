@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My Reproach — disiplin, kişisel gelişim ve motivasyon.">
+  <title>My Reproach | Daha İyi Bir Sen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="#anasayfa">My Reproach</a>
+  <nav class="nav">
+    <a href="#anasayfa">Ana Sayfa</a>
+    <a href="#yazilar">Yazılar</a>
+    <a href="#hakkimda">Hakkımda</a>
+    <a href="#iletisim">İletişim</a>
+    <button id="theme-toggle" type="button">🌙 Karanlık Mod</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="anasayfa">
+    <div class="hero-content">
+      <p class="eyebrow">DAHA İYİ BİR SEN MÜMKÜN</p>
+      <h1>Disiplin, gelişim ve motivasyon.</h1>
+      <p class="hero-text">
+        Hayat, kendine ne kadar değer verdiğinle şekillenir.
+        Küçük adımlar, büyük değişimlerin başlangıcıdır.
+      </p>
+      <a href="#yazilar" class="button">Yazıları keşfet ↗</a>
+    </div>
+  </section>
+
+  <section class="content" id="yazilar">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">OKU · DÜŞÜN · GELİŞ</p>
+        <h2>Son Yazılar</h2>
+      </div>
+      <span class="muted">Kendin için bir adım at.</span>
+    </div>
+
+    <div class="search-box">
+      <input
+              type="search"
+              id="article-search"
+              placeholder="Yazılarda ara..."
+              aria-label="Blog yazılarında ara"
+      >
+    </div>
+    <div class="filters" aria-label="Yazı kategorileri">
+      <button class="filter active" data-filter="Tümü">Tümü</button>
+      <button class="filter" data-filter="Disiplin">Disiplin</button>
+      <button class="filter" data-filter="Gelişim">Gelişim</button>
+      <button class="filter" data-filter="Motivasyon">Motivasyon</button>
+    </div>
+
+    <div class="article-grid">
+      <article class="article-card" data-category="Disiplin">
+        <div class="article-image image-one" role="img" aria-label="Planlama defteri"></div>
+        <div class="article-body">
+          <p class="category">DİSİPLİN</p>
+          <h3>Disiplin Neden Önemli?</h3>
+          <p>Disiplin, hedeflerine ulaşmanı sağlayan alışkanlıklar bütünüdür.</p>
+          <a class="read-more" href="#yazi-disiplin">Yazıyı keşfet ↗</a>
+        </div>
+      </article>
+
+      <article class="article-card" data-category="Motivasyon">
+        <div class="article-image image-two" role="img" aria-label="Dağ manzarası"></div>
+        <div class="article-body">
+          <p class="category">MOTİVASYON</p>
+          <h3>Devam Etmek Değerlidir</h3>
+          <p>Her gün motive olmayabilirsin. Önemli olan küçük adımlarla devam etmektir.</p>
+          <a class="read-more" href="#yazi-motivasyon">Yazıyı keşfet ↗</a>
+        </div>
+      </article>
+
+      <article class="article-card" data-category="Gelişim">
+        <div class="article-image image-three" role="img" aria-label="Çalışma masası"></div>
+        <div class="article-body">
+          <p class="category">KİŞİSEL GELİŞİM</p>
+          <h3>Kendini Geliştirmek İçin 5 Alışkanlık</h3>
+          <p>Daha iyi bir gelecek için öğrenmeye, planlamaya ve kendine zaman ayırmaya başla.</p>
+          <a class="read-more" href="#yazi-gelisim">Yazıyı keşfet ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Disiplin yazısı: yalnızca bağlantıya tıklayınca görünür -->
+
+  <!-- Disiplin makalesi -->
+  <section class="article-detail" id="yazi-disiplin">
+    <p class="eyebrow">DİSİPLİN · 5 DAKİKALIK OKUMA</p>
+    <h2>Disiplin Neden Önemli?</h2>
+
+    <p>
+      Disiplin, her gün motive hissetmek değildir.
+      İstemediğin günlerde bile hedeflerin için küçük
+      bir adım atabilmektir.
+    </p>
+
+    <h3>Küçük adımlarla başla</h3>
+    <p>
+      Büyük değişimler bir anda gerçekleşmez. Her gün
+      20 dakika kitap okumak, çalışma masanı düzenlemek
+      veya gününü planlamak zamanla güçlü alışkanlıklara
+      dönüşebilir.
+    </p>
+
+    <h3>Kendine verdiğin sözleri tut</h3>
+    <p>
+      Kendine ulaşılabilir hedefler koy. Bir gün planını
+      uygulayamadığında vazgeçme; ertesi gün yeniden başla.
+      Önemli olan kusursuz olmak değil, devam etmektir.
+    </p>
+
+    <a class="read-more" href="#yazilar">← Tüm yazılara dön</a>
+  </section>
+
+  <!-- Motivasyon makalesi -->
+  <section class="article-detail" id="yazi-motivasyon">
+    <p class="eyebrow">MOTİVASYON · 4 DAKİKALIK OKUMA</p>
+    <h2>Devam Etmek Değerlidir</h2>
+
+    <p>
+      Her gün motive hissetmek zorunda değilsin.
+      Bazen yorulabilir veya hedeflerinden uzaklaşabilirsin.
+      Önemli olan yeniden başlayabilmektir.
+    </p>
+
+    <h3>Küçük adımların gücü</h3>
+    <p>
+      Büyük hedeflerini küçük parçalara ayır.
+      Bir saat çalışamıyorsan 15 dakika çalış.
+      Önemli olan mükemmel olmak değil, başlamaktır.
+    </p>
+
+    <h3>Kendini başkalarıyla kıyaslama</h3>
+    <p>
+      Başkalarının ne yaptığına değil, kendi gelişimine
+      odaklan. Dünkü hâlinden daha iyi olmak için çabala.
+    </p>
+
+    <a class="read-more" href="#yazilar">← Tüm yazılara dön</a>
+  </section>
+
+  <!-- Kişisel gelişim makalesi -->
+  <section class="article-detail" id="yazi-gelisim">
+    <p class="eyebrow">KİŞİSEL GELİŞİM · 5 DAKİKALIK OKUMA</p>
+    <h2>Kendini Geliştirmek İçin 5 Alışkanlık</h2>
+
+    <h3>1. Her gün öğren</h3>
+    <p>Kitap okuyarak veya yeni bir beceri öğrenerek kendine yatırım yap.</p>
+
+    <h3>2. Gününü planla</h3>
+    <p>Her gün tamamlamak istediğin üç önemli işi belirle.</p>
+
+    <h3>3. Hareket et</h3>
+    <p>Yürüyüşe ve düzenli fiziksel aktiviteye zaman ayır.</p>
+
+    <h3>4. Teknoloji kullanımını yönet</h3>
+    <p>Dikkatini dağıtan bildirimleri sınırlandır ve öğrenmeye odaklan.</p>
+
+    <h3>5. İlerlemeni takip et</h3>
+    <p>Her akşam neler öğrendiğini ve yarın neyi geliştirebileceğini düşün.</p>
+
+    <a class="read-more" href="#yazilar">← Tüm yazılara dön</a>
+  </section>
+
+
+  <section class="about" id="hakkimda">
+    <p class="eyebrow">BU BLOGUN AMACI</p>
+    <h2>Kendinin daha iyi bir versiyonu ol.</h2>
+    <p>
+      My Reproach; disiplin, gelişim ve motivasyon üzerine
+      düşüncelerimi paylaşmak için oluşturduğum kişisel bir blog.
+      Burada birlikte öğrenecek, sorgulayacak ve gelişeceğiz.
+    </p>
+  </section>
+
+  <!-- E-posta Abonelik Bölümü -->
+  <section class="newsletter" id="abonelik">
+    <p class="eyebrow">GELİŞİM YOLCULUĞU</p>
+    <h2>Yeni yazılardan haberdar ol.</h2>
+
+    <p>
+      Disiplin, kişisel gelişim ve motivasyon üzerine
+      yeni yazılarımı e-posta kutunda keşfet.
+    </p>
+
+    <form id="newsletter-form">
+      <label for="subscriber-email">E-posta adresin</label>
+
+      <div class="newsletter-input">
+        <input
+                type="email"
+                id="subscriber-email"
+                name="email"
+                placeholder="ornek@email.com"
+                autocomplete="email"
+                required
+        >
+
+        <button type="submit">Abone Ol ↗</button>
+      </div>
+
+      <p id="newsletter-message" aria-live="polite"></p>
+    </form>
+  </section>
+
+
+
+  <section class="contact" id="iletisim">
+    <p class="eyebrow">İLETİŞİM</p>
+    <h2>Benimle İletişime Geç</h2>
+
+    <p class="contact-description">section
+      Bir fikrin, sorun veya paylaşmak istediğin
+      bir düşüncen mi var? Bana ulaşabilirsin.
+    </p>
+
+    <a
+            class="button"
+            href="mailto:ysllcanahmet06@gmail.com?subject=My%20Reproach%20-%20Iletisim"
+    >
+      ✉️ E-posta Gönder ↗
+    </a>
+
+    <a
+            class="button whatsapp-button"
+            href="https://wa.me/905010895001?text=Merhaba%2C%20My%20Reproach%20sitenizden%20ula%C5%9F%C4%B1yorum."
+            target="_blank"
+            rel="noopener noreferrer"
+    >
+      💬 WhatsApp ile İletişime Geç
+    </a>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <a class="logo" href="#anasayfa">My Reproach</a>
+  <p>© 2026 My Reproach · Kendine yatırım yap.</p>
+</footer>
+
+<script>
+  const filters = document.querySelectorAll(".filter");
+  const articles = document.querySelectorAll(".article-card");
+  const searchInput = document.getElementById("article-search");
+  const themeButton = document.getElementById("theme-toggle");
+
+  function filterArticles() {
+    const activeFilter = document.querySelector(".filter.active");
+    const selected = activeFilter
+            ? activeFilter.dataset.filter
+            : "Tümü";
+
+    const searchTerm = searchInput.value
+            .toLocaleLowerCase("tr-TR")
+            .trim();
+
+    articles.forEach(function (article) {
+      const matchesCategory =
+              selected === "Tümü" ||
+              article.dataset.category === selected;
+
+      const matchesSearch = article.textContent
+              .toLocaleLowerCase("tr-TR")
+              .includes(searchTerm);
+
+      article.hidden = !(matchesCategory && matchesSearch);
+    });
+  }
+
+  filters.forEach(function (button) {
+    button.addEventListener("click", function () {
+      filters.forEach(function (item) {
+        item.classList.remove("active");
+      });
+
+      button.classList.add("active");
+      filterArticles();
+    });
+  });
+
+  searchInput.addEventListener("input", filterArticles);
+
+  themeButton.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      themeButton.textContent = "☀️ Açık Mod";
+    } else {
+      themeButton.textContent = "🌙 Karanlık Mod";
+    }
+  });
+</script>
+
+
+</body>
+</html>
+\
